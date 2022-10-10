@@ -2,10 +2,10 @@ import { Link } from 'react-router-dom';
 import { useActions } from '../hooks/useActions';
 
 import PlayPause from './PlayPause';
-import { MdSingleBed } from 'react-icons/md';
 
 const SongCard = ({ song, i, isPlaying, activeSong, data }) => {
   const { setActiveSong, playPause } = useActions();
+
   const handlePauseClick = () => {
     playPause(false);
   };
