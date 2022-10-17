@@ -57,7 +57,7 @@ const TopPlay = () => {
         <div className="flex flex-row justify-between items-center">
           <h2 className="text-white font-bold text-2xl">Top Charts</h2>
           <Link to="/top-charts">
-            <p className="text-gray-300 text-base cursor-pointer">See more</p>
+            <p className="text-gray-300 text-base cursor-pointer mr-7">See more</p>
           </Link>
         </div>
 
@@ -72,7 +72,7 @@ const TopPlay = () => {
         <div className="flex flex-row justify-between items-center">
           <h2 className="text-white font-bold text-2xl">Top Artists</h2>
           <Link to="/top-artists">
-            <p className="text-gray-300 text-base cursor-pointer">See more</p>
+            <p className="text-gray-300 text-base cursor-pointer mr-7">See more</p>
           </Link>
         </div>
 
